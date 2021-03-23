@@ -22,3 +22,19 @@
 button {
   margin: 50px;
 }
+
+div.container {
+  display: flex;
+  align-items: center;
+}
+
+div.container a {
+  font-size: 50px;
+  text-decoration: none;
+  border: 1px solid black;
+  color: red;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 10px 10px 8px black;
+}
