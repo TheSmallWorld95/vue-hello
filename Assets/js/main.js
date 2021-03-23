@@ -23,16 +23,17 @@ var app = new Vue(
           this.colorChange = "purple"
         }
       },
-      Image: function () {
+      image: function () {
         if (this.getImage == "") {
           this.getImage = "https://picsum.photos/200/300"
         } else {
           this.getImage = ""
         }
+      },
+      transfer: function () {
+        this.name = document.querySelector("input[name=name]").value
+        this.surname = document.querySelector("input[name=surname]").value
       }
-      // transfer: function () {
-      //   this.name =
-      // }
     }
   }
 );

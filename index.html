@@ -20,13 +20,13 @@
   </div>
   <p> Ciao {{ name }} {{ surname }} </p>
   <div class="container">
-    <input type="text" name="" value="">
-    <input type="text" name="" value="">
-    <button type="button" name="button">Transfer with ENTER</button>
+    <input type="text" name="name" value="">
+    <input type="text" name="surname" value="">
+    <button type="button" name="button" @click="transfer">Transfer with ENTER</button>
   </div>
   <div class="container">
     <img :src="getImage" alt="">
-    <p> <a href="#" @click="Image">Get Image</a> </p>
+    <p> <a href="#" @click="image">Get Image</a> </p>
   </div>
 </div>
 
