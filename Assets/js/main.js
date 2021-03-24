@@ -14,6 +14,8 @@ var app = new Vue(
       colorChange: "purple",
       name: "",
       surname: "",
+      nameForm: "",
+      surnameForm: "",
     },
     methods: {
       changeColor: function () {
@@ -31,8 +33,8 @@ var app = new Vue(
         }
       },
       transfer: function () {
-        this.name = document.querySelector("input[name=name]").value
-        this.surname = document.querySelector("input[name=surname]").value
+        this.name = this.nameForm
+        this.surname = this.surnameForm
       }
     }
   }
